@@ -1,4 +1,6 @@
-# Transcribe multiple files from wav to text with timestamps using Azure Speech Recognition API
+# Transcribe
+
+Transcribe multiple files from wav to text with timestamps using Azure Speech Recognition API
 
 Based on https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/quickstart/javascript/browser/from-file
 
@@ -6,7 +8,7 @@ Based on https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/mas
 * A subscription key for the Speech service. See [Try the speech service for free](https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started).
 * Files prepared in format of wav, `16kHz sample rate` & `mono`
 
-# Try it out for short example files
+## Try it out
 * run `npm install`
 * replace `SUBSCRIPTION_KEY` & `SERVICE_REGION` with your Azure config
 * run `node index.js`
